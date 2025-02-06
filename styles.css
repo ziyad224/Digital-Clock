@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+.clock-container {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.time-display {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ampm-indicator {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
